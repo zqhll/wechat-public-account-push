@@ -19,9 +19,28 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '虫儿猪',
+      name: '曾勤',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o4O1l6qjOAjGHLU4MO3IlMy-tFak',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'Jm9yP5taecqsJoOzwDZd6Y-rJ49eII5-Wi99EzwGT88',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '05-20',
+      festivals: [
+        {
+          type: '生日', name: '虫儿猪', year: '1998', date: '05-20',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2018-12-07' }
+      ],
+    },{
+      // 想要发送的人的名字
+      name: '虫儿猪',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o4O1l6k_zv5X7mi_H2npvoxQ95c0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Jm9yP5taecqsJoOzwDZd6Y-rJ49eII5-Wi99EzwGT88',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
